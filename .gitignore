@@ -1,1 +1,7 @@
 /target
+*.ko*
+*.mod*
+*.o*
+*.symvers*
+*.order*
+result

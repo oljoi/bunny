@@ -19,10 +19,10 @@ rust-analyzer:
   make -C {{kdir}} M={{pwd}} rust-analyzer
 
 load:
-    sudo insmod bunny.ko
+  sudo insmod bunny.ko
 
 unload:
-    sudo rmmod bunny
+  sudo rmmod bunny
 
 test:
-    cat /dev/bunny
+  sudo cat /dev/bunny
