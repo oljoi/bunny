@@ -23,7 +23,7 @@ module! {
 }
 
 global_lock! {
-  pub(crate) unsafe(uninit) static BUNNY_SAY: Mutex<Say> = Say { data: [0; MAX_SAY], len: 0 };
+  unsafe(uninit) static BUNNY_SAY: Mutex<Say> = Say { data: [0; MAX_SAY], len: 0 };
 }
 
 const MAX_SAY: usize = 256;
